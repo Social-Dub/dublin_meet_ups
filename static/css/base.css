@@ -12,7 +12,12 @@ a {
     background-color: linen;
 }
 
-.message-section, .event-section {
+.message-section {
+    max-width: 1140px;
+}
+
+
+.event-section {
     max-width: 1140px;
 }
 
