@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <body>
+        <h1>Edit Event Page</h1>
+        <div class="container">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="editInputEventName" class="form-label">Event Name</label>
+                  <input type="text" class="form-control" id="editInputEventName" value="">
+                </div>
+                <div class="col-md-6">
+                  <label for="editInputLocation" class="form-label">Location</label>
+                  <input type="text" class="form-control" id="editInputLocation" value="">
+                </div>
+                <div class="col-md-6">
+                  <label for="editInputDate" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="editInputDate" value="">
+                </div>
+                <div class="col-md-6">
+                  <label for="editInputTime" class="form-label">Time</label>
+                  <input type="time" class="form-control" id="editInputTime" value="">
+                </div>
+                <div class="col-12">
+                  <label for="editInputDescription" class="form-label">Description</label>
+                  <input type="text" class="form-control" id="editInputDescription" value="">
+                </div>
+                </div>
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-danger" id="editCancelBtn">Cancel</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-success" id="editSubmitBtn">Submit</button>
+                  </div>
+              </form>
+    
+        </div>
+    </body>
+{% endblock %}
