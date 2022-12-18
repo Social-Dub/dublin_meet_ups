@@ -14,7 +14,7 @@
             <a href="{% url 'event' event.id %}" class="event-list">
                 <div class="row g-0">
                     <div class="col-md-3 d-none d-md-block">
-                        <img src="{{ MEDIA_URL }}images/secret_santa.png" class="img-fluid rounded-start event-list-img" alt="secret santa">
+                        <img src="{% static 'images/secret_santa.png' %}" class="img-fluid rounded-start" alt="secret santa" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
