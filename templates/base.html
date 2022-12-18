@@ -65,7 +65,7 @@
                   </li>
                   {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <span class="nav-link" href="#" tabindex="-1" aria-disabled="true">Weclome {{ user.username }}</span>
+                        <a class="nav-link btn btn-success text-white" href="{% url 'add_event' %}" tabindex="-1" aria-disabled="true">Create New Event</a>
                     </li>
                   {% else %}
                     <li class="nav-item">
