@@ -3,13 +3,13 @@
 
 {% block content %}
     <!-- login-signup button -->
-    <div id="login-signup-section" class="d-md-flex justify-content-center py-2 my-3 align-items-center">
+    <div class="d-md-flex justify-content-center py-2 my-3 align-items-center" id="login-signup-section">
       <div class="">
           <h2 class="text-dark fw-bold h4 d-none d-md-block me-5">Don't miss any event</h2>
       </div>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn btn-outline-secondary" type="button">Log in</button>
-          <button class="btn btn-outline-secondary" type="button">Sign up</button>
+          <button class="btn btn-outline-primary" type="button">Log in</button>
+          <button class="btn btn-outline-success" type="button">Sign up</button>
         </div>
     </div>
   
@@ -30,7 +30,7 @@
     
   <!--all events button -->
   <div class="d-md-flex d-grid gap-2 d-md-block justify-content-center mb-3">
-    <button class="btn btn-secondary" type="button">Click here to see ALL events</button>
+    <button class="btn btn-success" type="button">Click here to see ALL events</button>
   </div>
 
   <!-- events buttons-->
@@ -38,50 +38,55 @@
     <h2></h2>
     <div class="row event-section">
         <div class="col-md-6 col-lg-3 d-grid mb-2">
-          <div class="card mb-3" style="background-color:linen">
-            <img src="/assets/images/coffee-cafe-events.jpg" class="card-img-top img-event-cards" alt="Coffee/Cafe Events">
+
+          <div class="card mb-3" style="background-color: linen;">
+            <img src="{% static 'images/coffee-cafe-events.jpg' %}" class="card-img-top img-event-cards" alt="Coffee/Cafe Events">
             <div class="card-body">
               <h5 class="card-title">See Coffe/Cafe Events</h5>
               <p class="card-text">Meeting people and enjoying a good cup of coffee can make you happier than anything else.</p>
             </div>
-            <div>
-              <a href="#" class="btn btn-outline-secondary d-grid gap-2">See Events</a>
+            <div class="d-grid">
+              <button href="#" class="btn btn-outline-success d-grid gap-2" type="button">See Events</button>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 d-grid mb-2">
-          <div class="card mb-3" style="background-color:linen">
-            <img src="/assets/images/secret-santa-events.jpg" class="card-img-top img-event-cards" alt="Secret Santa Events">
+          <div class="card mb-3" style="background-color: linen;">
+
+            <img src="{% static 'images/secret-santa-events.jpg' %}" class="card-img-top img-event-cards" alt="Secret Santa Events">
             <div class="card-body">
               <h5 class="card-title">Secret Santa Events</h5>
               <p class="card-text">Do you have a wishlist for christmas? Then organize a secret santa event with friends, family or co-workers.</p>
             </div>
-            <div>
-              <a href="#" class="btn btn-outline-secondary d-grid gap-2">See Events</a>
+            <div class="d-grid">
+              <button href="#" class="btn btn-outline-success d-grid gap-2" type="button">See Events</button>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 d-grid mb-2">
-          <div class="card mb-3" style="background-color:linen">
-            <img src="/assets/images/pubs-drinks-events.jpg" class="card-img-top img-event-cards" alt="Pubs/Drinks Events">
+
+          <div class="card mb-3" style="background-color: linen;">
+
+            <img src="{% static 'images/pubs-drinks-events.jpg' %}" class="card-img-top img-event-cards" alt="Pubs/Drinks Events">
             <div class="card-body">
               <h5 class="card-title">Pubs/Drinks Events</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
-            <div>
-              <a href="#" class="btn btn-outline-secondary d-grid gap-2">See Events</a>
+            <div class="d-grid">
+              <button href="#" class="btn btn-outline-success d-grid gap-2" type="button">See Events</button>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 d-grid mb-2">
-          <div class="card mb-3" style="background-color:linen">
-            <img src="/assets/images/language-exchange-events.jpg" class="card-img-top img-event-cards" alt="Language Exchange Events">
+          <div class="card mb-3" style="background-color: linen;">
+
+            <img src="{% static 'images/language-exchange-events.jpg' %}" class="card-img-top img-event-cards" alt="Language Exchange Events">
             <div class="card-body">
               <h5 class="card-title">Language Exchange Events</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
-            <div>
-              <a href="#" class="btn btn-outline-secondary d-grid gap-2">See Events</a>
+            <div class="d-grid">
+              <button href="#" class="btn btn-outline-success d-grid gap-2" type="button">See Events</button>
             </div>
           </div>
         </div>
