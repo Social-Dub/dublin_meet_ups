@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'events/css/events.css' %}">
+{% endblock %}
+
 {% block content %}
 <!--Events-->
 <div class="container justify-content-center">
@@ -8,7 +12,7 @@
     <div class="card mb-3" style="max-width: 1400px;">
         <div class="row g-0">
             <div class="col-md-6 d-none d-md-block">
-            <img src="/assets/images/woman.jpg" class="img-fluid rounded-start" alt="woman in christmas" style="width: 200px; height: 200px; object-fit: cover;">
+            <img src="{{ MEDIA_URL }}/assets/images/woman.jpg" class="img-fluid rounded-start" alt="woman in christmas" style="width: 200px; height: 200px; object-fit: cover;">
             </div>
             <div class="col-md-3">
                 <div class="card-body">
