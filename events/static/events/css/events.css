@@ -25,4 +25,50 @@ button[type="submit"] {
 
 .edit-submit-btn, .add-submit-btn{
     background-color:rgb(52, 233, 94)
+=======
+p {
+    color: green;
+}
+
+/*Event List page*/
+.event-cards {
+    background-color: linen;
+}
+
+.img-event-cards {
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-list-cards {
+    max-width: 1400px;
+    background-color: linen;
+}
+
+.event-list {
+    text-decoration: none;
+    color: black;
+}
+
+.event-list-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body-details {
+    display: flex;
+    align-items: center;
+}
+
+/* Event Page */
+.event-page-card {
+    max-width: 1400px;
+    background-color: linen;
+}
+
+.event-page-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }

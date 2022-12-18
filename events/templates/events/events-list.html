@@ -10,23 +10,23 @@
 <div class="container justify-content-center">
     <h2 class="text-center">{{ event_type }}</h2>
     {% for event in events %}
-        <div class="card mb-3" style="max-width: 1400px;">
-            <a href="{% url 'event' event.id %}">
+        <div class="card mb-3 event-list-cards">
+            <a href="{% url 'event' event.id %}" class="event-list">
                 <div class="row g-0">
                     <div class="col-md-3 d-none d-md-block">
-                        <img src="{{ MEDIA_URL }}images/secret_santa.png" class="img-fluid rounded-start" alt="secret santa" style="width: 200px; height: 200px; object-fit: cover;">
+                        <img src="{% static 'images/secret_santa.png' %}" class="img-fluid rounded-start" alt="secret santa" style="width: 200px; height: 200px; object-fit: cover;">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
-                        <h5 class="card-title">{{ event.title }}</h5>
+                        <h5 class="card-title h3 mb-3">{{ event.title }}</h5>
                         <p class="card-text">{{ event.description }}</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 card-body-details">
                         <div class="card-body">
-                        <p class="card-text ">{{ event.category }}</p>
-                        <p class="card-text">Jan 21st - 5pm</p>
-                        <p class="card-text">{{ event.location }}</p>
+                        <p class="card-text fw-bold">{{ event.category }}</p>
+                        <p class="card-text fw-bold">Jan 21st - 5pm</p>
+                        <p class="card-text fw-bold">{{ event.location }}</p>
                         </div>
                     </div>
                 </div>
