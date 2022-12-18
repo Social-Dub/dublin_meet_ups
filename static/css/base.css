@@ -66,3 +66,23 @@ button[type="submit"] {
     display: flex;
     justify-content: center;
 }
+
+/*--------------------------------- 404 Page --------------------------------*/
+.error-page-sc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;}
+.error-page-h1{
+    margin-bottom: 20px;}
+.error-page-h2{
+    font-size: 400%;
+    margin-bottom:20px;}
+.error-page-p{
+    height:100px;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 150%;}
