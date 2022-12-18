@@ -1,10 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'events/css/events.css' %}">
-{% endblock %}
-
 {% block content %}
     <body>
         <h1>Edit Event Page</h1>
@@ -30,13 +26,14 @@
                   <label for="editInputDescription" class="form-label">Description</label>
                   <input type="text" class="form-control" id="editInputDescription" value="">
                 </div>
-                </div>
-                <div class="col-md-6">
-                  <button type="button" class="btn btn-danger" id="editCancelBtn">Cancel</button>
-                </div>
-                <div class="col-md-6">
-                    <button type="button" class="btn btn-success" id="editSubmitBtn">Submit</button>
+                <div class="grid text-center btn-container">
+                  <div class="g-col-6">
+                    <button type="button" class="btn btn-danger edit-cancel-btn" id="editCancelBtn">Cancel</button>
                   </div>
+                  <div class="g-col-6">
+                      <button type="button" class="btn btn-success edit-submit-btn" id="editSubmitBtn">Submit</button>
+                  </div>
+              </div>
               </form>
     
         </div>
