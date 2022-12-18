@@ -1,159 +1,505 @@
-# Social Dub(deployed link)
+# Social Dub
+Developers: 
 
-Short description
+![This is an screenshot of the responsive design image]()
 
-![Mockup image](Mockup imagelink)
+----
 
----
+[Live Webpage]()
 
-## Table of contents
+----
 
-- [\[Project name\](deployed link)](#project-namedeployed-link)
-  - [Table of contents](#table-of-contents)
-  - [UX](#ux)
+## About
+
+The Social Dub is a social app to help people get to meet up and attend events that they have intrest in. It is currently based in Dublin City with its eyes on world domination in the near future. 
+
+## Table of Contents
+
+- [Social Dub](#social-dub)
+  - [About](#about)
+  - [Table of Contents](#table-of-contents)
+  - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+  - [Design](#design)
+      - [Colours](#colours)
+      - [Typography](#typography)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
     - [User Stories](#user-stories)
+      - [First-time User](#first-time-user)
+      - [Site Owner](#site-owner)
+    - [User Manual](#user-manual)
+      - [Home page](#home-page)
+      - [Event page](#event-page)
+      - [Events List page](#events-list-page)
+      - [Add Events page](#add-events-page)
+      - [Edit Events page](#edit-events-page)
+      - [Login page](#login-page)
+      - [Logout page](#logout-page)
+  - [Technical Design](#technical-design)
     - [Wireframes](#wireframes)
-    - [Database schema](#database-schema)
-    - [Style and colours](#style-and-colours)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Framework and Tools](#framework-and-tools)
   - [Features](#features)
     - [Existing Features](#existing-features)
-    - [Future Features](#future-features)
-  - [Technologies Used](#technologies-used)
+      - [Home page](#home-page)
+      - [Event page](#event-page)
+      - [Events List page](#events-list-page)
+      - [Add Events page](#add-events-page)
+      - [Edit Events page](#edit-events-page)
+      - [Login page](#login-page)
+      - [Logout page](#logout-page)
   - [Testing](#testing)
-    - [Found bugs](#found-bugs)
+    - [Validator Testing](#validator-testing)
+    - [Testing User Stories](#testing-user-stories)
+    - [Testing Site Owner](#testing-site-owner)
+    - [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
+    - [Deploying to Github Pages](#deploying-to-github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
   - [Credits](#credits)
-    - [Content](#content)
-    - [Acknowledgements](#acknowledgements)
-  - [This project is made for Code Institute's Decembers 2022 Hackathon](#this-project-is-made-for-code-institutes-decembers-2022-hackathon)
+  - [Acknowledgements](#acknowledgements)
 
----
+-----
+## Project Goals
 
-## UX
+### User Goals
 
----
+ - To be able to create and account and log in,
+ - To be able to view exsisting events,
+ - To be able to create an event,
+ - To be able to edit an event the user created,
+ - To be able to log out once finished,
+ - To be able to see how popular each event is,
+ - To be able to view the details about the specific event.
+
+
+### Site Owner Goals
+
+ - To provide user an easy-to-use app to create, view & edit events,
+ - To provide the user with a selection of events based around Dublin city,
+ - To provide the user with the ability to view the number of attendees,
+ - To provide the user with a way to create their own account,
+ - To provide the user with an easy to read events page.
+
+-----
+## User Experience
+
+## Design
+
+#### Colours
+
+![Colours Palete]()
+
+#### Typography
+
+- The ***INSERT HERE*** font is used as the main font for the whole project. Is adding to the project by importing from Google fonts.
+
+### Target Audience
+
+ - People looking to attend local events in dublin.
+ - People looking to meet people that are intrested in simulat activities.
+
+### User Requirements and Expectations
+
+ - The ability to seamlessly navigate through the app.
+ - To use an app that provides different events to suit a wide range of users.
 
 ### User Stories
 
-[Back to top](#Table-of-contents)
+#### First-time User
+
+1. As a user, I want to:
+    - have an app to view events in Dublin city,
+
+
+#### Site Owner
+2.  As the site owner, I would want:
+    - to provide an app that is intuitave to view different events,
+
+### User Manual
+
+<details><summary>Instructions</summary>
+
+#### Overview
+
+The Social Dub app is for users who 
 
 ---
+
+#### Home page
+
+Text here
+
+---
+
+#### Event page
+
+Text here
+
+---
+
+#### Events List page
+
+Text here
+
+---
+
+#### Add Events page
+
+Text here
+
+---
+
+#### Edit Events page
+
+Text here
+
+---
+
+#### Login page
+
+Text here
+
+---
+
+#### Logout page
+
+Text here
+
+---
+
+</details>
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Technical Design
 
 ### Wireframes
 
-[Back to top](#Table-of-contents)
+Following are the wireframes of Social Dub App:
 
----
+<details><summary>Home Page</summary>
+<img src="">
 
-### Database schema
+----
+<img src="">
 
-[Back to top](#Table-of-contents)
+----
+<img src="">
 
----
+----
 
-### Style and colours
+</details>
 
-[Back to top](#Table-of-contents)
+<details><summary>Event Page</summary>
+<img src="">
 
----
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Events List page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Add Events page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Edit Events page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Login page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Logout page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML 5](https://en.wikipedia.org/wiki/HTML/)
+- [CSS 3](https://en.wikipedia.org/wiki/CSS)
+- [Python](https://www.python.org)
+
+### Framework and Tools
+* [Git](https://git-scm.com/) Used for version control to push the code to GitHub.
+* [GitHub](https://github.com/) Used as a repository to store the projects code.
+* [lucidchart](https://www.lucidchart.com/) Used to create the project flow.
+* [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on arange of devices.
+
 
 ## Features
 
 ### Existing Features
 
-- #### Feature1
+#### Home page
 
-![Feature1](path here: static/images/homepage.png)
+Text Here
 
-[Back to top](#Table-of-contents)
-
----
-
-- #### Feature2
-
-![Feature2](path here: static/images/homepage.png)
-
-[Back to top](#Table-of-contents)
+![Home page image]()
 
 ---
 
-- #### Feature3
+#### Event page
 
-![Feature3](path here: static/images/homepage.png)
+Text Here
 
-[Back to top](#Table-of-contents)
-
----
-
-### Future Features
-
-- #### Favorite Feature 1
-
-[Back to top](#Table-of-contents)
+![Event page image]()
 
 ---
 
-- #### Favorite Feature 2
+#### Events List page
 
-[Back to top](#Table-of-contents)
+Text Here
 
----
-
-- #### List of other future features
-
-  - ff1
-  - ff2
-  - ff3
-
-[Back to top](#Table-of-contents)
+![Events List page image]()
 
 ---
 
-## Technologies Used
+#### Add Events page
 
-- [Tech1](link to tech) - description
-- [Tech2](link to tech) - description
-- [Tech3](link to tech) - description
+Text Here
 
-[Back to top](#Table-of-contents)
+![Add Events page image]()
 
----
+----
+#### Edit Events page
+
+Text Here
+
+![Edit Events page image]()
+
+----
+
+#### Login page
+
+Text Here
+
+![Login page image]()
+
+----
+
+#### Logout page
+
+Text Here
+
+![Logout page image]()
+
+----
+
+[Back to Table Of Contents](#table-of-contents)
+
+----
 
 ## Testing
 
-Testing was done...
+### Validator Testing
 
-### Found bugs
+ - __HTML__
 
-- #### bug1
+   - No error was returned when passing through the official for index.html [W3C validator](https://validator.w3.org))
 
-![bug1](img/bug1)
+   <br>
+      <details><summary>Home Page</summary>
+      <img src="">
+      </details>
 
-- #### bug2
+ - __CSS__
+ 
+   - No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator)
 
-![bug2](img/bug2)
+   <br>
+      <details><summary>Base CSS File</summary>
+      <img src="">
+      </details>
 
-- #### bug3
+  - __Accessibility__
 
-![bug1](img/bug3)
+      <details><summary>Lighthouse test result for mobile</summary>
+      <img src="">
+      </details>
+      <details><summary>Lighthouse test result for desktop</summary>
+      <img src="">
+      </details>
+ 
+   
+### Testing User Stories
 
----
+1. As a user, I want to have an .
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Text here | Text here | Text here | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+2. As a user, I want to .
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Text here | Text here | Text here | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. As a user, I want to
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Text here | Text here | Text here | Works as expected |  
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+4. As a user, I want to.
+  
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Text here | Text here | Text here | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+----
+
+### Testing Site Owner
+
+ 1. As the site owner, I want to
+  
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|  
+| Text here | Text here | Text here | Works as expected |
+
+
+2. As the site owner, I want the 
+  
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|  
+| Text here | Text here | Text here | Works as expected |
+
+
+3. As the owner of the site, I want the
+  
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|  
+| Text here | Text here | Text here | Works as expected |
+
+
+4. As the site owner, I would want
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|  
+| Text here | Text here | Text here | Works as expected |
+
+
+5. As the site owner, I would want to 
+  
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|  
+| Text here | Text here | Text here | Works as expected |
+
+----
+
+[Back to Table Of Contents](#table-of-contents)
+
+----
+
+### Unfixed Bugs
+Text here
+
 
 ## Deployment
 
-[Back to top](#Table-of-contents)
+### Deploying to Github Pages
 
----
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab
+    - From the side menu, select pages under Code and automation, select the main Branch, then click to save button.
+    - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+ The live link can be found here:- 
+
+### Forking the GitHub Repository
+
+* The steps to fork the github repository
+
+    - Go to the GitHub repository,
+    - In the top right hand corner you can click on the fork button,
+    - This will fork the repositry.
 
 ## Credits
 
-### Content
+### Text here
 
-### Acknowledgements
-Secret Santa attribution link - Image by <a href="https://www.freepik.com/free-vector/hand-drawn-secret-santa-illustration_20112076.htm">Freepik</a>
 
-[Back to top](#Table-of-contents)
+## Acknowledgements
+I would like to take the opportunity to thank:
+* The Team
+  * 
+* [Code Institute](https://codeinstitute.net/) & the hackteam for all their hard work in running the hackathon
 
----
-
-## This project is made for Code Institute's Decembers 2022 Hackathon
+[Back to Table Of Contents](#table-of-contents)
