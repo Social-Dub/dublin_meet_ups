@@ -12,23 +12,36 @@
         <form class="row g-3">
             <div class="col-md-6">
               <label for="inputEventName" class="form-label">Event Name</label>
-              <input type="text" class="form-control" id="inputEventName">
+              <input type="text" class="form-control" id="inputEventName" required>
             </div>
             <div class="col-md-6">
               <label for="inputLocation" class="form-label">Location</label>
-              <input type="text" class="form-control" id="inputLocation">
+              <input type="text" class="form-control" id="inputLocation" required>
             </div>
             <div class="col-md-6">
               <label for="inputDate" class="form-label">Date</label>
-              <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy">
+              <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy" required>
             </div>
             <div class="col-md-6">
               <label for="inputTime" class="form-label">Time</label>
-              <input type="time" class="form-control" id="inputTime" placeholder="hh:mm">
+              <input type="time" class="form-control" id="inputTime" placeholder="hh:mm" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputPeople" class="form-label">Number of People</label>
+                <input type="number" class="form-control" id="inputPeople" name="people" placeholder="1" min="1" max="25" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCategory" class="form-label">Type of Event</label>
+                <select class="form-select" aria-label="Default select example" id="inputCategory">
+                    <option selected value="coffee">Coffee</option>
+                    <option value="secret-santa">Secret Santa</option>
+                    <option value="drinks">Drinks</option>
+                    <option value="language-exchange">Language Exchange</option>
+                  </select>
             </div>
             <div class="col-12">
               <label for="inputDescription" class="form-label">Description</label>
-              <input type="text" class="form-control" id="inputDescription">
+              <textarea class="form-control" id="inputDescription"></textarea>
             </div>
             <div class="grid text-center btn-container">
             <div class="g-col-6">

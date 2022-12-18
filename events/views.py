@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from events.models import Event
+from django.contrib.auth.decorators import login_required
 
 
 def event(request, event_id):
@@ -32,7 +33,12 @@ def events_list(request, event_type_arg):
     return render(request, 'events/events-list.html', context)
 
 
+@login_required
 def add_event(request):
+    """
+    A view for users to create events
+    """
+    # if request.method == 'POST':
     return render(request, 'events/add-event.html')
 
 
