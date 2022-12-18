@@ -93,7 +93,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'dublin_meet_ups.wsgi.application'
-CSRF_TRUSTED_ORIGINS = ['https://8000-michaelcwalsh7-hackdec-kbo67ayod6h.ws-eu79.gitpod.io']  # noqa E501
+CSRF_TRUSTED_ORIGINS = ['https://8000-michaelcwal-dublinmeetu-ee6hutadyqa.ws-eu79.gitpod.io']  # noqa E501
 
 
 # Database
