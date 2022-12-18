@@ -32,3 +32,15 @@ p {
     display: flex;
     align-items: center;
 }
+
+/* Event Page */
+.event-page-card {
+    max-width: 1400px;
+    background-color: linen;
+}
+
+.event-page-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
