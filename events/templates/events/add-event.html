@@ -2,25 +2,26 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'static/events/css/events.css' %}">
+    <link rel="stylesheet" href="{% static 'events/css/events.css' %}">
 {% endblock %}
 
 {% block content %}
 <body>
     <h1>Add Event Page</h1>
     <div class="container">
-        <form class="row g-3">
+        <form action="{% url 'add_event' %}" class="row g-3" method="POST">
+            {% csrf_token %}
             <div class="col-md-6">
               <label for="inputEventName" class="form-label">Event Name</label>
-              <input type="text" class="form-control" id="inputEventName" required>
+              <input type="text" class="form-control" name="title" id="inputEventName" required>
             </div>
             <div class="col-md-6">
               <label for="inputLocation" class="form-label">Location</label>
-              <input type="text" class="form-control" id="inputLocation" required>
+              <input type="text" class="form-control" name="location" id="inputLocation" required>
             </div>
             <div class="col-md-6">
               <label for="inputDate" class="form-label">Date</label>
-              <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy" required>
+              <input type="date" class="form-control" name="date" id="inputDate" placeholder="dd/mm/yyyy" required>
             </div>
             <div class="col-md-6">
               <label for="inputTime" class="form-label">Time</label>
@@ -28,11 +29,11 @@
             </div>
             <div class="col-md-6">
                 <label for="inputPeople" class="form-label">Number of People</label>
-                <input type="number" class="form-control" id="inputPeople" name="people" placeholder="1" min="1" max="25" required>
+                <input type="number" class="form-control" name="people" id="inputPeople" name="people" placeholder="1" min="1" max="25" required>
             </div>
             <div class="col-md-6">
                 <label for="inputCategory" class="form-label">Type of Event</label>
-                <select class="form-select" aria-label="Default select example" id="inputCategory">
+                <select class="form-select" aria-label="Default select example" name="category" id="inputCategory">
                     <option selected value="coffee">Coffee</option>
                     <option value="secret-santa">Secret Santa</option>
                     <option value="drinks">Drinks</option>
@@ -41,14 +42,14 @@
             </div>
             <div class="col-12">
               <label for="inputDescription" class="form-label">Description</label>
-              <textarea class="form-control" id="inputDescription"></textarea>
+              <textarea class="form-control" name="description" id="inputDescription"></textarea>
             </div>
             <div class="grid text-center btn-container">
             <div class="g-col-6">
               <button type="button" class="btn btn-danger add-cancel-btn" id="cancelBtn">Cancel</button>
             </div>
             <div class="g-col-6">
-                <button type="button" class="btn btn-success add-submit-btn" id="submitBtn">Submit</button>
+                <button type="submit" class="btn btn-success add-submit-btn" id="submitBtn">Submit</button>
             </div>
           </div>
           </form>
