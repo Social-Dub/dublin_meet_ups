@@ -1,3 +1,28 @@
-p {
-    color: green;
+.bg-color-add-event {
+    background-color:#fff;
+}
+
+.add-event-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+}
+
+.edit-cancel-btn, .add-cancel-btn {
+    background-color:#e84610;
+}
+
+.edit-submit-btn, .add-submit-btn{
+    background-color:rgb(52, 233, 94)
 }
