@@ -94,15 +94,30 @@ button[type="submit"] {
 
 .error-container{
     background-color: #ece3d8;
-    padding: 5rem;
+    padding: 2rem;
     border-radius: 10px;
 }
 
 
 /*----------------- login ---------------------*/
 
-.login-btn {
-    width: 5rem;
-    height: 3rem;
-    margin: 1rem;
+.sign-in-heading{
+    color: red;
+    text-align: center;
+}
+
+.signin-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.signin-container {
+    background-color: #ece3d8;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 50%;
 }
