@@ -7,3 +7,20 @@ a {
     color: black!important;
     text-decoration: none!important;
 }
+
+#login-signup-section {
+    background-color: linen;
+}
+
+.message.section, .event-section {
+    max-width: 1140px;
+}
+
+.event-cards {
+    background-color: linen;
+}
+
+.img-event-cards {
+    height: 200px;
+    object-fit: cover;
+}
