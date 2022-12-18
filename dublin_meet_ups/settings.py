@@ -94,7 +94,9 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'dublin_meet_ups.wsgi.application'
-CSRF_TRUSTED_ORIGINS = ['https://8000-michaelcwal-dublinmeetu-ee6hutadyqa.ws-eu79.gitpod.io']  # noqa E501
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-michaelcwal-dublinmeetu-ee6hutadyqa.ws-eu79.gitpod.io',
+    'https://8000-socialdub-dublinmeetups-v42iix89x6v.ws-eu79.gitpod.io']  # noqa E501
 
 
 # Database
@@ -142,14 +144,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

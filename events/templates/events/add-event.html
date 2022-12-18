@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'events/css/events.css' %}">
+    <link rel="stylesheet" href="{% static 'static/events/css/events.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -30,13 +30,14 @@
               <label for="inputDescription" class="form-label">Description</label>
               <input type="text" class="form-control" id="inputDescription">
             </div>
+            <div class="grid text-center btn-container">
+            <div class="g-col-6">
+              <button type="button" class="btn btn-danger add-cancel-btn" id="cancelBtn">Cancel</button>
             </div>
-            <div class="col-md-6">
-              <button type="button" class="btn btn-danger" id="cancelBtn">Cancel</button>
+            <div class="g-col-6">
+                <button type="button" class="btn btn-success add-submit-btn" id="submitBtn">Submit</button>
             </div>
-            <div class="col-md-6">
-                <button type="button" class="btn btn-success" id="submitBtn">Submit</button>
-              </div>
+          </div>
           </form>
 
     </div>
