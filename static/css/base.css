@@ -71,14 +71,38 @@ button[type="submit"] {
     text-align: center;
     flex-direction: column;
     height: 500px;}
+
 .error-page-h1{
     margin-bottom: 20px;}
+
 .error-page-h2{
     font-size: 400%;
     margin-bottom:20px;}
+
 .error-page-p{
     height:100px;
     padding-top: 100px;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;}
+
+.errorbtn {
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.error-container{
+    background-color: #ece3d8;
+    padding: 5rem;
+    border-radius: 10px;
+}
+
+
+/*----------------- login ---------------------*/
+
+.login-btn {
+    width: 5rem;
+    height: 3rem;
+    margin: 1rem;
+}
