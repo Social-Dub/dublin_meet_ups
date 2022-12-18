@@ -9,26 +9,26 @@
 <!--Events-->
 <div class="container justify-content-center">
     <h2 class="text-center">{{event.title }}</h2>
-    <div class="card mb-3" style="max-width: 1400px;">
+    <div class="card mb-3 event-page-card">
         <div class="row g-0">
             <div class="col-md-6 d-none d-md-block">
-            <img src="{{ MEDIA_URL }}/assets/images/woman.jpg" class="img-fluid rounded-start" alt="woman in christmas" style="width: 200px; height: 200px; object-fit: cover;">
+            <img src="{{ MEDIA_URL }}/assets/images/woman.jpg" class="img-fluid rounded-start event-page-img" alt="woman in christmas">
             </div>
             <div class="col-md-3">
                 <div class="card-body">
-                    <p class="card-text">{{ event.category }}</p>
-                    <p class="card-text"> Some Dublin Bar</p>
+                    <p class="card-text fw-bold">{{ event.category }}</p>
+                    <p class="card-text fw-bold"> Some Dublin Bar</p>
                 </div>
             </div>
             <div class="col-md-3">
             <div class="card-body">
-                <p class="card-text ">Jan 6th - 21:00</p>
-                <p class="card-text">{{ event.user }}</p>
+                <p class="card-text fw-bold">Jan 6th - 21:00</p>
+                <p class="card-text fw-bold">{{ event.user }}</p>
             </div>
             </div>
         </div>
     </div>
-    <div class="card mb-3" style="max-width: 1400px;">
+    <div class="card mb-3 event-page-card">
         <div class="row g-0">
             <div class="col-md-6">
                 <div class="card-body">
@@ -38,15 +38,15 @@
             </div>
             <div class="col-md-4">
             <div class="card-body">
-            <p class="card-text">People: 0/{{ event.people }}</p>
-            <p class="card-text">
+            <p class="card-text fw-bold">People: 0/{{ event.people }}</p>
+            <p class="card-text fw-bold">
                 Online - {% if event.online %}Yes{% else %}No{% endif %}
             </p>
             </div>
           </div>
           <div class="col-md-2 d-flex align-items-center">
             <div class="card-body">
-                <button type="button" class="btn btn-success btn-lg align-center">Join</button>
+                <button type="button" class="btn btn-success btn-lg align-center fw-bold">Join</button>
             </div>
           </div>
         </div>
