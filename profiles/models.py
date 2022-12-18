@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class UserProfile(models.Models):
+class UserProfile(models.Model):
     """
     A model for users
     """
