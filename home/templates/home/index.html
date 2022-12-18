@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- login-signup button -->
+  <div class="d-md-flex justify-content-center my-3 align-items-center">
+    <div class="">
+        <h2 class="text-secondary fw-bold h5 me-2">Don't miss any event</h2>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-outline-success" type="button">Log in</button>
+        <button class="btn btn-outline-success" type="button">Sign up</button>
+      </div>
+  </div>
+  
+  <!-- Message -->
+  <div class=" d-md-flex container-fluid p-2 bg-success mb-3 justify-content-center">
+    <h2 class="h5 text-white">
+        Looking for somethin to do in Dublin this christmas? You've come to the right place!
+    </h2>
+ </div>
+  
+  <!--all events button -->
+  <div class="d-md-flex d-grid gap-2 d-md-block justify-content-center mb-3">
+    <button class="btn btn-outline-success" type="button">Click here to see ALL events</button>
+  </div>
+
+  <!-- events buttons-->
+  <div class="d-md-flex justify-content-center my-3 align-items-center">
+    <h2></h2>
+    <div class="row">
+        <div class="col-md-6 d-grid mb-2">
+            <button class="btn btn-outline-success" type="button">See Coffe/Cafe Events</button>
+        </div>
+        <div class="col-md-6 d-grid mb-2">
+            <button class="btn btn-outline-success" type="button">See Secret Santa Events</button>
+        </div>
+        <div class="col-md-6 d-grid mb-2">
+            <button class="btn btn-outline-success" type="button">See Pubs/Drinks Events</button>
+        </div>
+        <div class="col-md-6 d-grid mb-2">
+            <button class="btn btn-outline-success" type="button">See Language Exchange Events</button>
+        </div>
+    </div>
+  </div>
+{% endblock %}
