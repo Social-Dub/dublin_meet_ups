@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'events/css/events.css' %}">
+{% endblock %}
+
 {% block content %}
     <body>
         <h1>Edit Event Page</h1>
