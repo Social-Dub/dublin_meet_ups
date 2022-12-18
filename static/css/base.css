@@ -12,12 +12,8 @@ a {
     background-color: linen;
 }
 
-.message.section, .event-section {
+.message-section, .event-section {
     max-width: 1140px;
-}
-
-.event-cards {
-    background-color: linen;
 }
 
 .img-event-cards {
