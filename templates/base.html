@@ -63,12 +63,19 @@
                       <li><a class="dropdown-item" href="{% url 'edit_event' %}">Edit Event</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_login' %}" tabindex="-1" aria-disabled="true">Log In</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_signup' %}" tabindex="-1" aria-disabled="true">Sign Up</a>
-                  </li>
+                  {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <span class="nav-link" href="#" tabindex="-1" aria-disabled="true">Weclome {{ user.username }}</span>
+                    </li>
+                  {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_login' %}" tabindex="-1" aria-disabled="true">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_signup' %}" tabindex="-1" aria-disabled="true">Sign Up</a>
+                    </li>
+                  {% endif %}
+                  
                 </ul>
               </div>
             </div>
