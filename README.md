@@ -92,7 +92,7 @@ The Social Dub is a social app to help people get to meet up and attend events t
 
 #### Colours
 
-![Colours Palete]()
+![Colours Palette](/static/images/colour-palette-v2.PNG)
 
 #### Typography
 
@@ -132,43 +132,43 @@ The Social Dub app is for users who
 
 #### Home page
 
-Text here
+Want a website explanation about the purpose for which it is intended.
 
 ---
 
-#### Event page
+#### Event List page
 
-Text here
+Want a general overview of all events.
 
 ---
 
-#### Events List page
+#### Events page
 
-Text here
+Want a detailed description of the event.
 
 ---
 
 #### Add Events page
 
-Text here
+Want to add a new event.
 
 ---
 
 #### Edit Events page
 
-Text here
+Want to modify an existing event.
 
 ---
 
 #### Login page
 
-Text here
+Want to access their account.
 
 ---
 
 #### Logout page
 
-Text here
+Want to exit their account.
 
 ---
 
@@ -183,86 +183,58 @@ Text here
 Following are the wireframes of Social Dub App:
 
 <details><summary>Home Page</summary>
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Desktop.png" alt="Home Page Desktop">
 
 ----
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Mobile.png" alt="Home Page Mobile">
 
 ----
-<img src="">
-
-----
-
 </details>
 
-<details><summary>Event Page</summary>
-<img src="">
+<details><summary>Event List</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventList-Desktop.png" alt="Event List Desktop">
 
 ----
-<img src="">
-
-----
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventList-Mobile.png" alt="Event List Mobile">
 
 ----
 </details>
 
-<details><summary>Events List page</summary>
-<img src="">
+<details><summary>Event Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventPage-Desktop.png" alt="Event Page Desktop">
 
 ----
-<img src="">
-
-----
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventPage-Mobile.png" alt="Event Page Mobile">
 
 ----
 </details>
 
 <details><summary>Add Events page</summary>
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/AddEvent-Desktop.png" alt="Add Events page Desktop">
 
 ----
-<img src="">
-
-----
-<img src="">
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/AddEvent-Mobile.png" alt="Add Events page Mobile">
 
 ----
 </details>
 
 <details><summary>Edit Events page</summary>
-<img src="">
+<img src="" alt="Edit Events page Desktop">
 
 ----
-<img src="">
-
-----
-<img src="">
+<img src="" alt="Edit Events page Mobile">
 
 ----
 </details>
 
-<details><summary>Login page</summary>
-<img src="">
-
-----
-<img src="">
-
-----
-<img src="">
+<details><summary>Log in Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/an-readme/static/images/Login.PNG" alt="Log In Page">
 
 ----
 </details>
 
-<details><summary>Logout page</summary>
-<img src="">
-
-----
-<img src="">
-
-----
-<img src="">
+<details><summary>Sign Up Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/an-readme/static/images/signup.PNG" alt="Sign Up Page">
 
 ----
 </details>
