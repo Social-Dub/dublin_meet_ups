@@ -182,75 +182,54 @@ Want to exit their account.
 
 Following are the wireframes of Social Dub App:
 
-<details><summary>Home Page</summary>
-<img src="https://code-institute-room.slack.com/files/U01JTQRB78A/F04G5USFZ3J/event_list_-_desktop.png">
-
-----
-<img src="">
-
-----
-</details>
-
-<details><summary>Event List</summary>
+#### Home Page
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
-----
-</details>
 
-<details><summary>Events Page</summary>
+#### Event List
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
-----
-</details>
 
-<details><summary>Add Events page</summary>
+#### Event Page
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
-----
-</details>
 
-<details><summary>Edit Events page</summary>
+#### Add Events Page
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
+
+#### Edit Events Page
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-</details>
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 
-<details><summary>Login page</summary>
-<img src="">
-
+#### Login Page
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 
+#### Logout Page
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-</details>
-
-<details><summary>Logout page</summary>
-<img src="">
-
-----
-<img src="">
-
-----
-<img src="">
-
-----
-</details>
-
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 
 ## Technologies Used
 
