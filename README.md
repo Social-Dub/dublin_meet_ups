@@ -92,7 +92,7 @@ The Social Dub is a social app to help people get to meet up and attend events t
 
 #### Colours
 
-![Colours Palete]()
+![Colours Palette](/static/images/Colour-Palette.PNG)
 
 #### Typography
 
@@ -132,43 +132,43 @@ The Social Dub app is for users who
 
 #### Home page
 
-Text here
+Want a website explanation about the purpose for which it is intended.
 
 ---
 
-#### Event page
+#### Event List page
 
-Text here
+Want a general overview of all events.
 
 ---
 
-#### Events List page
+#### Events page
 
-Text here
+Want a detailed description of the event.
 
 ---
 
 #### Add Events page
 
-Text here
+Want to add a new event.
 
 ---
 
 #### Edit Events page
 
-Text here
+Want to modify an existing event.
 
 ---
 
 #### Login page
 
-Text here
+Want to access their account.
 
 ---
 
 #### Logout page
 
-Text here
+Want to exit their account.
 
 ---
 
