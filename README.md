@@ -183,87 +183,65 @@ Want to exit their account.
 Following are the wireframes of Social Dub App:
 
 <details><summary>Home Page</summary>
-<img src="">
-
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-<img src="">
-
-----
-
-</details>
-
-<details><summary>Event Page</summary>
-<img src="">
-
-----
-<img src="">
-
-----
-<img src="">
-
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 ----
 </details>
 
-<details><summary>Events List page</summary>
-<img src="">
-
+<details><summary>Event List</summary>
+![Desktop](/static/images/EventList-Desktop.png)
+Desktop
 ----
-<img src="">
-
+![Mobile](/static/images/EventList-Mobile.png)
+Mobile
 ----
-<img src="">
+</details>
 
+<details><summary>Events Page</summary>
+![Desktop](/static/images/EventPage-Desktop.png)
+Desktop
+----
+![Mobile](/static/images/EventPage-Mobile.png)
+Mobile
 ----
 </details>
 
 <details><summary>Add Events page</summary>
-<img src="">
-
+![Desktop](/static/images/AddEvent-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-<img src="">
-
+![Mobile](/static/images/AddEvent-Mobile.png)
+Mobile
 ----
 </details>
 
 <details><summary>Edit Events page</summary>
-<img src="">
-
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-<img src="">
-
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 ----
 </details>
 
 <details><summary>Login page</summary>
-<img src="">
-
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-<img src="">
-
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 ----
 </details>
 
 <details><summary>Logout page</summary>
-<img src="">
-
+![Desktop](/static/images/Home-Desktop.png)
+Desktop
 ----
-<img src="">
-
-----
-<img src="">
-
+![Mobile](/static/images/Home-Mobile.png)
+Mobile
 ----
 </details>
 
