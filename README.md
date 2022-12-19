@@ -227,20 +227,14 @@ Following are the wireframes of Social Dub App:
 ----
 </details>
 
-<details><summary>Edit Events page</summary>
-<img src="" alt="Edit Events page Desktop">
-
-----
-<img src="" alt="Edit Events page Mobile">
+<details><summary>Log in Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/an-readme/static/images/Login.PNG" alt="Log In Page">
 
 ----
 </details>
 
-<details><summary>Edit Events page</summary>
-<img src="" alt="Edit Events page Desktop">
-
-----
-<img src="" alt="Edit Events page Mobile">
+<details><summary>Sign Up Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/an-readme/static/images/signup.PNG" alt="Sign Up Page">
 
 ----
 </details>
