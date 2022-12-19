@@ -92,7 +92,7 @@ The Social Dub is a social app to help people get to meet up and attend events t
 
 #### Colours
 
-![Colours Palette](/static/images/Colour-Palette.PNG)
+![Colours Palette](/static/images/colour-palette-v2.PNG)
 
 #### Typography
 
