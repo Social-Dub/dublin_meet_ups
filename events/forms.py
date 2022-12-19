@@ -9,6 +9,14 @@ class EventForm(forms.ModelForm):
     """
     Generates the form the user will complete to create an event
     """
+    class Meta:
+        """
+        Informs django of the model being drawn from, and the fields
+        to be rendered.
+        """
+        model = Event
+        exclude = ('online', 'date',)
+
     def __init__(self, *args, **kwargs):
         """
         Adds placeholders and classes, removes auto-generated labels and sets
