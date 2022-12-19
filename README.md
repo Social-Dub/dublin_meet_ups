@@ -183,6 +183,15 @@ Want to exit their account.
 Following are the wireframes of Social Dub App:
 
 <details><summary>Home Page</summary>
+<img src="Home-Desktop.png">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Event List</summary>
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
@@ -191,29 +200,20 @@ Mobile
 ----
 </details>
 
-<details><summary>Event List</summary>
-![Desktop](/static/images/EventList-Desktop.png)
-Desktop
-----
-![Mobile](/static/images/EventList-Mobile.png)
-Mobile
-----
-</details>
-
 <details><summary>Events Page</summary>
-![Desktop](/static/images/EventPage-Desktop.png)
+![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
-![Mobile](/static/images/EventPage-Mobile.png)
+![Mobile](/static/images/Home-Mobile.png)
 Mobile
 ----
 </details>
 
 <details><summary>Add Events page</summary>
-![Desktop](/static/images/AddEvent-Desktop.png)
+![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
-![Mobile](/static/images/AddEvent-Mobile.png)
+![Mobile](/static/images/Home-Mobile.png)
 Mobile
 ----
 </details>
@@ -228,20 +228,26 @@ Mobile
 </details>
 
 <details><summary>Login page</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
+<img src="">
+
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="">
+
+----
+<img src="">
+
 ----
 </details>
 
 <details><summary>Logout page</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
+<img src="">
+
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="">
+
+----
+<img src="">
+
 ----
 </details>
 
