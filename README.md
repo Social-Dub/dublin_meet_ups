@@ -183,7 +183,7 @@ Want to exit their account.
 Following are the wireframes of Social Dub App:
 
 <details><summary>Home Page</summary>
-<img src="Home-Desktop.png">
+<img src="https://code-institute-room.slack.com/files/U01JTQRB78A/F04G5USFZ3J/event_list_-_desktop.png">
 
 ----
 <img src="">
