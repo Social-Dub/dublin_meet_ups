@@ -189,47 +189,67 @@ Desktop
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
 
-#### Event List
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
-----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
 
-#### Event Page
+<details><summary>Event List</summary>
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
+----
+</details>
 
-#### Add Events Page
+<details><summary>Events Page</summary>
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
+----
+</details>
 
-#### Edit Events Page
+<details><summary>Add Events page</summary>
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
+----
+</details>
 
-#### Login Page
+<details><summary>Edit Events page</summary>
 ![Desktop](/static/images/Home-Desktop.png)
 Desktop
 ----
 ![Mobile](/static/images/Home-Mobile.png)
 Mobile
+----
+</details>
 
-#### Logout Page
-![Desktop](/static/images/Home-Desktop.png)
+<details><summary>Login page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Desktop.png" alt="Home Page Desktop">
 Desktop
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Mobile.png">
+
+----
+<img src="">
+
+----
+</details>
+
+<details><summary>Logout page</summary>
+<img src="">
+
+----
+<img src="">
+
+----
+<img src="">
+
+----
+</details>
+
 
 ## Technologies Used
 
