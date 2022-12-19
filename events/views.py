@@ -24,8 +24,8 @@ def events_list(request, event_type_arg):
         events = Event.objects.all()
         event_type = 'All Events'
     else:
-        events = Event.objects.all()
-
+        events = Event.objects.filter(category=event_type_arg)
+        event_type = event_type_arg
     context = {
         'events': events,
         'event_type': event_type
