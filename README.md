@@ -182,70 +182,65 @@ Want to exit their account.
 
 Following are the wireframes of Social Dub App:
 
-#### Home Page
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
-----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<details><summary>Home Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Desktop.png" alt="Home Page Desktop">
 
-
-<details><summary>Event List</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Mobile.png" alt="Home Page Mobile">
+
 ----
 </details>
 
-<details><summary>Events Page</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
+<details><summary>Event List</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventList-Desktop.png" alt="Event List Desktop">
+
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventList-Mobile.png" alt="Event List Mobile">
+
+----
+</details>
+
+<details><summary>Event Page</summary>
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventPage-Desktop.png" alt="Event Page Desktop">
+
+----
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/EventPage-Mobile.png" alt="Event Page Mobile">
+
 ----
 </details>
 
 <details><summary>Add Events page</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/AddEvent-Desktop.png" alt="Add Events page Desktop">
+
 ----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
+<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/AddEvent-Mobile.png" alt="Add Events page Mobile">
+
 ----
 </details>
 
 <details><summary>Edit Events page</summary>
-![Desktop](/static/images/Home-Desktop.png)
-Desktop
-----
-![Mobile](/static/images/Home-Mobile.png)
-Mobile
-----
-</details>
-
-<details><summary>Login page</summary>
-<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Desktop.png" alt="Home Page Desktop">
-Desktop
-----
-<img src="https://github.com/andresfgc/dublin_meet_ups_an/blob/5d4f76dcc829082e02ffd1628db12e5e52c268d3/static/images/Home-Mobile.png">
+<img src="" alt="Edit Events page Desktop">
 
 ----
-<img src="">
+<img src="" alt="Edit Events page Mobile">
 
 ----
 </details>
 
-<details><summary>Logout page</summary>
-<img src="">
+<details><summary>Edit Events page</summary>
+<img src="" alt="Edit Events page Desktop">
 
 ----
-<img src="">
+<img src="" alt="Edit Events page Mobile">
 
 ----
-<img src="">
+</details>
+
+<details><summary>Edit Events page</summary>
+<img src="" alt="Edit Events page Desktop">
+
+----
+<img src="" alt="Edit Events page Mobile">
 
 ----
 </details>
